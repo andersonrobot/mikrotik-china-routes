@@ -1,6 +1,6 @@
 # Mikrotik China Routes - Mirror of tcp5.com
 
-This repository automatically mirrors the latest China ISP (Internet Service Provider) routing lists from [tcp5.com](http://tcp5.com/), updated **daily**.
+This repository automatically mirrors the latest China ISP (Internet Service Provider) routing lists from tcp5.com, updated **daily**.
 
 It provides both **List format** (for address-list) and **Table format** (for routing-table), suitable for MikroTik RouterOS.
 
