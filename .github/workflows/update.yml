@@ -1,0 +1,66 @@
+name: Sync TCP5 China ISP Routes (List + Table)
+
+on:
+  schedule:
+    - cron: '0 2 * * *'    # Runs daily at approximately 10:00 Beijing Time
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get current Beijing date
+        id: date
+        run: |
+          echo "date=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Create directory structure
+        run: |
+          mkdir -p list/latest table/latest
+          mkdir -p list/history/${{ steps.date.outputs.date }} table/history/${{ steps.date.outputs.date }}
+
+      - name: Download and save List format
+        run: |
+          cd list/latest
+          curl -L -o chinatelecom_latest.rsc http://ros.tcp5.com/list/telecom_latest.rsc
+          curl -L -o chinaunicom_latest.rsc http://ros.tcp5.com/list/unicom_latest.rsc
+          curl -L -o chinamobile_latest.rsc http://ros.tcp5.com/list/mobile_latest.rsc
+          curl -L -o cernet_latest.rsc http://ros.tcp5.com/list/cernet_latest.rsc
+          curl -L -o other_latest.rsc http://ros.tcp5.com/list/other_latest.rsc
+          curl -L -o all_china_latest.rsc http://ros.tcp5.com/list/all_china_latest.rsc
+
+          # Save historical version
+          cd ../history/${{ steps.date.outputs.date }}
+          cp ../../latest/*.rsc .
+
+      - name: Download and save Table format
+        run: |
+          cd table/latest
+          curl -L -o chinatelecom_latest.rsc http://ros.tcp5.com/table/telecom_latest.rsc
+          curl -L -o chinaunicom_latest.rsc http://ros.tcp5.com/table/unicom_latest.rsc
+          curl -L -o chinamobile_latest.rsc http://ros.tcp5.com/table/mobile_latest.rsc
+          curl -L -o cernet_latest.rsc http://ros.tcp5.com/table/cernet_latest.rsc
+          curl -L -o other_latest.rsc http://ros.tcp5.com/table/other_latest.rsc
+          curl -L -o all_china_latest.rsc http://ros.tcp5.com/table/all_china_latest.rsc
+
+          # Save historical version
+          cd ../history/${{ steps.date.outputs.date }}
+          cp ../../latest/*.rsc .
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          git add list/ table/
+          
+          if git diff --staged --quiet; then
+            echo "No changes, skipping commit"
+          else
+            git commit -m "Auto sync tcp5.com routes ${{ steps.date.outputs.date }} (List + Table)"
+            git push
+          fi
