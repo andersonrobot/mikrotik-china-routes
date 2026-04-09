@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 确保能正确检测文件变化
 
       - name: Get current Beijing date
         id: date
@@ -58,9 +60,10 @@ jobs:
           
           git add list/ table/
           
-          if git diff --staged --quiet; then
-            echo "No changes, skipping commit"
+          if git diff --cached --quiet; then
+            echo "No changes detected, skipping commit"
           else
             git commit -m "Auto sync tcp5.com routes ${{ steps.date.outputs.date }} (List + Table)"
             git push
+            echo "Successfully committed and pushed changes"
           fi
