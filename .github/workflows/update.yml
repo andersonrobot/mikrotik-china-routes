@@ -1,9 +1,12 @@
-name: Sync TCP5 China ISP Routes (List + Table)
+name: Sync China ISP Routes (List + Table) from tcp5.com
 
 on:
   schedule:
-    - cron: '0 2 * * *'    # Runs daily at approximately 10:00 Beijing Time
+    - cron: '0 2 * * *'    # Daily at ~10:00 Beijing Time
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   sync:
@@ -13,7 +16,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # 确保能正确检测文件变化
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get current Beijing date
         id: date
@@ -23,9 +27,9 @@ jobs:
       - name: Create directory structure
         run: |
           mkdir -p list/latest table/latest
-          mkdir -p list/history/${{ steps.date.outputs.date }} table/history/${{ steps.date.outputs.date }}
+          mkdir -p "list/history/${{ steps.date.outputs.date }}" "table/history/${{ steps.date.outputs.date }}"
 
-      - name: Download and save List format
+      - name: Download List format
         run: |
           cd list/latest
           curl -L -o chinatelecom_latest.rsc http://ros.tcp5.com/list/telecom_latest.rsc
@@ -35,11 +39,10 @@ jobs:
           curl -L -o other_latest.rsc http://ros.tcp5.com/list/other_latest.rsc
           curl -L -o all_china_latest.rsc http://ros.tcp5.com/list/all_china_latest.rsc
 
-          # Save historical version
           cd ../history/${{ steps.date.outputs.date }}
           cp ../../latest/*.rsc .
 
-      - name: Download and save Table format
+      - name: Download Table format
         run: |
           cd table/latest
           curl -L -o chinatelecom_latest.rsc http://ros.tcp5.com/table/telecom_latest.rsc
@@ -49,21 +52,20 @@ jobs:
           curl -L -o other_latest.rsc http://ros.tcp5.com/table/other_latest.rsc
           curl -L -o all_china_latest.rsc http://ros.tcp5.com/table/all_china_latest.rsc
 
-          # Save historical version
           cd ../history/${{ steps.date.outputs.date }}
           cp ../../latest/*.rsc .
 
-      - name: Commit and push updates
+      - name: Commit and push if changes exist
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           git add list/ table/
           
           if git diff --cached --quiet; then
-            echo "No changes detected, skipping commit"
+            echo "No changes detected today, skipping commit."
           else
             git commit -m "Auto sync tcp5.com routes ${{ steps.date.outputs.date }} (List + Table)"
             git push
-            echo "Successfully committed and pushed changes"
+            echo "Changes committed and pushed successfully."
           fi
