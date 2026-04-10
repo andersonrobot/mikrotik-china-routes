@@ -1,4 +1,4 @@
-name: Sync China ISP Routes (List + Table) from tcp5.com
+name: Sync China ISP Routes (List + Table) from tcp5
 
 on:
   schedule:
