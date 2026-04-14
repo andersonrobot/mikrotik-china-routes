@@ -65,7 +65,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes detected today, skipping commit."
           else
-            git commit -m "Auto sync tcp5.com routes ${{ steps.date.outputs.date }} (List + Table)"
+            git commit -m "Auto sync routes ${{ steps.date.outputs.date }} (List + Table) from tcp5."
             git push
             echo "Changes committed and pushed successfully."
           fi
