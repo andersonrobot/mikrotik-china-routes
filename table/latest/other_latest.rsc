@@ -1,4 +1,4 @@
-#Other_China   2026-10-25-05
+#Other_China   2026-10-26-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -1003,7 +1003,6 @@ add action=lookup comment="" disabled=no dst-address=202.181.183.0/24 table=Rout
 add action=lookup comment="" disabled=no dst-address=202.181.185.0/24 table=Route_Other_China
 add action=lookup comment="" disabled=no dst-address=202.181.229.0/24 table=Route_Other_China
 add action=lookup comment="" disabled=no dst-address=203.18.50.0/24 table=Route_Other_China
-add action=lookup comment="" disabled=no dst-address=203.82.252.0/22 table=Route_Other_China
 add action=lookup comment="" disabled=no dst-address=203.83.56.0/21 table=Route_Other_China
 add action=lookup comment="" disabled=no dst-address=203.89.100.0/22 table=Route_Other_China
 add action=lookup comment="" disabled=no dst-address=203.90.231.0/24 table=Route_Other_China

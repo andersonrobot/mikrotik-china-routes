@@ -1,4 +1,4 @@
-#ChinaUnicom   2026-10-25-05
+#ChinaUnicom   2026-10-26-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -1725,10 +1725,7 @@ add action=lookup comment="" disabled=no dst-address=211.161.0.0/20 table=Route_
 add action=lookup comment="" disabled=no dst-address=211.161.32.0/20 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=211.161.60.0/23 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=211.161.62.0/24 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=211.162.64.0/23 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=211.162.66.0/24 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=211.162.68.0/22 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=211.162.72.0/21 table=Route_ChinaUnicom
+add action=lookup comment="" disabled=no dst-address=211.162.64.0/20 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=211.162.119.0/24 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=211.162.120.0/21 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=211.162.200.0/22 table=Route_ChinaUnicom
