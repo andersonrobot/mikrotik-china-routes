@@ -1,4 +1,4 @@
-#ChinaCerNet   2026-11-05-05
+#ChinaCerNet   2026-11-06-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -36,6 +36,7 @@ add action=lookup comment="" disabled=no dst-address=115.156.0.0/15 table=Route_
 add action=lookup comment="" disabled=no dst-address=115.158.0.0/16 table=Route_ChinaCerNet
 add action=lookup comment="" disabled=no dst-address=116.13.0.0/16 table=Route_ChinaCerNet
 add action=lookup comment="" disabled=no dst-address=116.56.0.0/15 table=Route_ChinaCerNet
+add action=lookup comment="" disabled=no dst-address=116.255.128.0/24 table=Route_ChinaCerNet
 add action=lookup comment="" disabled=no dst-address=118.202.0.0/15 table=Route_ChinaCerNet
 add action=lookup comment="" disabled=no dst-address=118.228.0.0/15 table=Route_ChinaCerNet
 add action=lookup comment="" disabled=no dst-address=118.230.0.0/16 table=Route_ChinaCerNet
