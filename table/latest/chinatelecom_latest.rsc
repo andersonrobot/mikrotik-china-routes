@@ -1,4 +1,4 @@
-#ChinaTelecom   2026-11-09-05
+#ChinaTelecom   2026-11-10-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -787,6 +787,7 @@ add action=lookup comment="" disabled=no dst-address=103.135.192.0/23 table=Rout
 add action=lookup comment="" disabled=no dst-address=103.135.195.0/24 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.139.172.0/23 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.139.212.0/23 table=Route_ChinaTelecom
+add action=lookup comment="" disabled=no dst-address=103.142.82.0/24 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.142.96.0/23 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.143.16.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.144.66.0/23 table=Route_ChinaTelecom
