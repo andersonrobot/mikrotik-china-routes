@@ -1,4 +1,4 @@
-#ChinaTelecom   2026-11-11-05
+#ChinaTelecom   2026-11-12-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -760,7 +760,7 @@ add action=lookup comment="" disabled=no dst-address=103.105.220.0/22 table=Rout
 add action=lookup comment="" disabled=no dst-address=103.107.216.0/21 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.108.244.0/24 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.109.20.0/22 table=Route_ChinaTelecom
-add action=lookup comment="" disabled=no dst-address=103.113.4.0/23 table=Route_ChinaTelecom
+add action=lookup comment="" disabled=no dst-address=103.113.4.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.114.100.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.114.212.0/23 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=103.114.236.0/22 table=Route_ChinaTelecom
@@ -2041,7 +2041,6 @@ add action=lookup comment="" disabled=no dst-address=183.91.61.0/24 table=Route_
 add action=lookup comment="" disabled=no dst-address=183.128.0.0/11 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=183.160.0.0/13 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=188.131.128.0/17 table=Route_ChinaTelecom
-add action=lookup comment="" disabled=no dst-address=192.51.173.0/24 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=192.140.160.0/19 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=192.140.208.0/21 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=192.144.128.0/17 table=Route_ChinaTelecom
