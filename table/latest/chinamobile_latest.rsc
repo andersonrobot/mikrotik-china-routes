@@ -1,4 +1,4 @@
-#ChinaMobile   2026-11-16-05
+#ChinaMobile   2026-11-17-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -228,6 +228,7 @@ add action=lookup comment="" disabled=no dst-address=103.174.94.0/23 table=Route
 add action=lookup comment="" disabled=no dst-address=103.177.28.0/23 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.179.78.0/23 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.181.234.0/24 table=Route_ChinaMobile
+add action=lookup comment="" disabled=no dst-address=103.189.154.0/23 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.190.122.0/23 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.191.102.0/24 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.192.0.0/22 table=Route_ChinaMobile
