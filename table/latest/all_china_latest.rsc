@@ -1,4 +1,4 @@
-#ALL_China   2026-11-17-05
+#ALL_China   2026-11-18-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -63,19 +63,18 @@ add action=lookup comment="" disabled=no dst-address=8.208.0.0/16 table=Route_AL
 add action=lookup comment="" disabled=no dst-address=8.209.38.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.209.40.0/21 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.209.64.0/18 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=8.209.192.0/18 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=8.211.0.0/16 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=8.211.0.0/17 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=8.211.192.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.212.128.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.213.0.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.213.168.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.214.0.0/16 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=8.216.0.0/16 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=8.216.128.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.219.0.0/16 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.220.0.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.220.128.0/18 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=8.221.0.0/16 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=8.221.0.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.222.16.0/20 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=8.222.64.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=8.222.128.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=9.151.32.0/20 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=9.151.224.0/21 table=Route_ALL_China
@@ -229,13 +228,12 @@ add action=lookup comment="" disabled=no dst-address=42.244.0.0/14 table=Route_A
 add action=lookup comment="" disabled=no dst-address=42.248.0.0/15 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.91.0.0/16 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.93.128.0/17 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=43.94.0.0/17 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=43.94.0.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.94.128.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.95.192.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.96.7.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.96.8.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.96.10.0/24 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=43.96.25.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.96.34.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.96.54.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.96.68.0/24 table=Route_ALL_China
@@ -247,7 +245,6 @@ add action=lookup comment="" disabled=no dst-address=43.96.118.0/24 table=Route_
 add action=lookup comment="" disabled=no dst-address=43.97.0.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.98.0.0/16 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.106.0.0/15 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=43.108.128.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.109.168.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.109.171.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=43.110.0.0/15 table=Route_ALL_China
@@ -567,19 +564,16 @@ add action=lookup comment="" disabled=no dst-address=47.77.96.0/20 table=Route_A
 add action=lookup comment="" disabled=no dst-address=47.77.112.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.77.128.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.79.0.0/20 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=47.79.32.0/19 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=47.79.80.0/20 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=47.79.48.0/20 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.79.96.0/19 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=47.79.128.0/19 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.79.192.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.80.64.0/18 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=47.81.64.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.82.0.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.82.128.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.84.0.0/15 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.87.0.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.87.128.0/18 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=47.87.192.0/21 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=47.87.196.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.87.210.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.87.212.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.87.216.0/21 table=Route_ALL_China
@@ -602,7 +596,6 @@ add action=lookup comment="" disabled=no dst-address=47.89.122.0/23 table=Route_
 add action=lookup comment="" disabled=no dst-address=47.89.124.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.89.128.0/17 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.90.128.0/17 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=47.91.0.0/19 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.91.64.0/19 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.92.0.0/14 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.96.0.0/12 table=Route_ALL_China
@@ -632,7 +625,7 @@ add action=lookup comment="" disabled=no dst-address=47.246.122.0/23 table=Route
 add action=lookup comment="" disabled=no dst-address=47.246.124.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.246.128.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.246.136.0/21 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=47.246.144.0/22 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=47.246.146.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.246.152.0/21 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.246.160.0/20 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=47.246.196.0/22 table=Route_ALL_China
@@ -975,11 +968,14 @@ add action=lookup comment="" disabled=no dst-address=82.108.209.0/24 table=Route
 add action=lookup comment="" disabled=no dst-address=82.109.207.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=82.110.225.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=82.156.0.0/15 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=83.98.192.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=83.98.194.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=83.98.198.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=84.75.25.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=84.75.146.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=84.75.151.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=84.75.184.0/22 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=85.92.140.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=85.239.158.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=86.110.52.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=87.76.170.0/24 table=Route_ALL_China
@@ -987,6 +983,8 @@ add action=lookup comment="" disabled=no dst-address=87.76.208.0/24 table=Route_
 add action=lookup comment="" disabled=no dst-address=87.76.223.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=87.85.236.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=87.254.207.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=89.30.159.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=89.30.172.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=89.42.89.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=89.116.244.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=89.117.250.0/24 table=Route_ALL_China
@@ -2975,7 +2973,6 @@ add action=lookup comment="" disabled=no dst-address=139.9.240.0/21 table=Route_
 add action=lookup comment="" disabled=no dst-address=139.9.248.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=139.95.18.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=139.95.96.0/22 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=139.95.136.0/21 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=139.95.144.0/20 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=139.129.0.0/16 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=139.148.0.0/16 table=Route_ALL_China
@@ -3066,7 +3063,6 @@ add action=lookup comment="" disabled=no dst-address=144.79.42.0/23 table=Route_
 add action=lookup comment="" disabled=no dst-address=144.79.54.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=144.79.71.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=144.123.0.0/16 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=144.225.78.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=144.225.190.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=144.255.0.0/16 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=145.14.71.0/24 table=Route_ALL_China
@@ -3433,9 +3429,16 @@ add action=lookup comment="" disabled=no dst-address=180.203.4.0/24 table=Route_
 add action=lookup comment="" disabled=no dst-address=180.208.0.0/15 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=180.210.213.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=180.212.0.0/15 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=180.223.0.0/19 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=180.223.40.0/21 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=180.223.48.0/20 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.0.0/20 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.16.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.18.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.24.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.31.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.46.0/23 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.48.0/22 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.52.0/24 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.54.0/23 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=180.223.58.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=180.223.64.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=180.223.72.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=180.223.116.0/22 table=Route_ALL_China
@@ -3476,6 +3479,7 @@ add action=lookup comment="" disabled=no dst-address=182.174.0.0/15 table=Route_
 add action=lookup comment="" disabled=no dst-address=182.200.0.0/13 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=182.240.0.0/13 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=182.254.0.0/16 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=182.255.60.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=183.0.0.0/10 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=183.64.0.0/13 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=183.78.180.0/22 table=Route_ALL_China
@@ -3518,6 +3522,7 @@ add action=lookup comment="" disabled=no dst-address=191.214.0.0/19 table=Route_
 add action=lookup comment="" disabled=no dst-address=191.219.160.0/20 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=191.223.240.0/20 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=192.25.206.0/23 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=192.51.173.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=192.55.10.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=192.132.194.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=192.140.160.0/19 table=Route_ALL_China
