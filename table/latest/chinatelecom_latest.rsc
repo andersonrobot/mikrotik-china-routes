@@ -1,4 +1,4 @@
-#ChinaTelecom   2026-11-19-05
+#ChinaTelecom   2026-11-20-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -135,6 +135,7 @@ add action=lookup comment="" disabled=no dst-address=43.180.0.0/16 table=Route_C
 add action=lookup comment="" disabled=no dst-address=43.192.0.0/16 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.193.0.0/18 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.193.64.0/23 table=Route_ChinaTelecom
+add action=lookup comment="" disabled=no dst-address=43.193.80.0/20 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.194.0.0/20 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.194.16.0/24 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.196.0.0/16 table=Route_ChinaTelecom
@@ -197,7 +198,6 @@ add action=lookup comment="" disabled=no dst-address=43.243.12.0/22 table=Route_
 add action=lookup comment="" disabled=no dst-address=43.243.128.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.243.232.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.243.244.0/22 table=Route_ChinaTelecom
-add action=lookup comment="" disabled=no dst-address=43.247.68.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.247.88.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.247.100.0/22 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=43.247.176.0/20 table=Route_ChinaTelecom
@@ -1121,7 +1121,6 @@ add action=lookup comment="" disabled=no dst-address=113.64.0.0/10 table=Route_C
 add action=lookup comment="" disabled=no dst-address=113.128.0.0/15 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=113.132.0.0/14 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=113.136.0.0/13 table=Route_ChinaTelecom
-add action=lookup comment="" disabled=no dst-address=113.197.101.0/24 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=113.209.128.0/17 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=113.218.0.0/15 table=Route_ChinaTelecom
 add action=lookup comment="" disabled=no dst-address=113.220.0.0/14 table=Route_ChinaTelecom
