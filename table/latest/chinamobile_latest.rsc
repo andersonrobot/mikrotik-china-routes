@@ -1,4 +1,4 @@
-#ChinaMobile   2026-11-24-05
+#ChinaMobile   2026-11-25-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -254,7 +254,6 @@ add action=lookup comment="" disabled=no dst-address=103.244.64.0/22 table=Route
 add action=lookup comment="" disabled=no dst-address=103.247.176.0/22 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.248.152.0/23 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.248.154.0/24 table=Route_ChinaMobile
-add action=lookup comment="" disabled=no dst-address=103.248.224.0/22 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.249.244.0/24 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.251.207.0/24 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=103.254.112.0/22 table=Route_ChinaMobile
@@ -556,12 +555,10 @@ add action=lookup comment="" disabled=no dst-address=203.86.62.0/24 table=Route_
 add action=lookup comment="" disabled=no dst-address=203.107.1.0/24 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.6.0/24 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.13.0/24 table=Route_ChinaMobile
-add action=lookup comment="" disabled=no dst-address=203.107.14.0/24 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.20.0/22 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.26.0/23 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.28.0/22 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.32.0/19 table=Route_ChinaMobile
-add action=lookup comment="" disabled=no dst-address=203.107.70.0/24 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.80.0/21 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.96.0/23 table=Route_ChinaMobile
 add action=lookup comment="" disabled=no dst-address=203.107.112.0/21 table=Route_ChinaMobile
