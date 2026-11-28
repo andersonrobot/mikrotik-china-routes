@@ -1,4 +1,4 @@
-#ChinaUnicom   2026-11-27-05
+#ChinaUnicom   2026-11-28-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -117,11 +117,9 @@ add action=lookup comment="" disabled=no dst-address=43.231.170.0/24 table=Route
 add action=lookup comment="" disabled=no dst-address=43.239.120.0/22 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.240.124.0/22 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.240.128.0/22 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=43.240.156.0/22 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.240.192.0/22 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.240.200.0/23 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.240.204.0/22 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=43.241.16.0/22 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.241.208.0/20 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.241.224.0/20 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=43.241.240.0/22 table=Route_ChinaUnicom
@@ -1618,7 +1616,7 @@ add action=lookup comment="" disabled=no dst-address=210.76.77.0/24 table=Route_
 add action=lookup comment="" disabled=no dst-address=210.76.85.0/24 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=210.77.32.0/19 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=210.77.144.0/20 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=210.77.192.0/18 table=Route_ChinaUnicom
+add action=lookup comment="" disabled=no dst-address=210.77.224.0/19 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=210.79.224.0/19 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=210.82.0.0/15 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=210.87.128.0/18 table=Route_ChinaUnicom
@@ -1927,7 +1925,6 @@ add action=lookup comment="" disabled=no dst-address=223.203.100.0/24 table=Rout
 add action=lookup comment="" disabled=no dst-address=223.212.0.0/15 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=223.223.176.0/21 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=223.248.0.0/16 table=Route_ChinaUnicom
-add action=lookup comment="" disabled=no dst-address=223.251.192.0/18 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=223.252.194.0/24 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=223.252.199.0/24 table=Route_ChinaUnicom
 add action=lookup comment="" disabled=no dst-address=223.252.200.0/23 table=Route_ChinaUnicom

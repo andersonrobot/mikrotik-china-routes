@@ -1,4 +1,4 @@
-#ALL_China   2026-11-27-05
+#ALL_China   2026-11-28-05
 #WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip route rule
@@ -129,7 +129,6 @@ add action=lookup comment="" disabled=no dst-address=31.56.69.0/24 table=Route_A
 add action=lookup comment="" disabled=no dst-address=31.57.132.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=31.57.171.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=31.57.238.0/24 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=31.77.104.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=36.1.0.0/16 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=36.4.0.0/14 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=36.16.0.0/12 table=Route_ALL_China
@@ -956,19 +955,14 @@ add action=lookup comment="" disabled=no dst-address=82.108.209.0/24 table=Route
 add action=lookup comment="" disabled=no dst-address=82.109.207.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=82.110.225.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=82.156.0.0/15 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=83.98.192.0/24 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=83.98.194.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=83.98.198.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=84.75.25.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=84.75.151.0/24 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=85.92.140.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=85.239.158.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=86.110.52.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=87.76.223.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=87.85.236.0/22 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=87.254.207.0/24 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=89.30.159.0/24 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=89.30.172.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=89.116.244.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=89.117.250.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=91.124.64.0/24 table=Route_ALL_China
@@ -4075,7 +4069,7 @@ add action=lookup comment="" disabled=no dst-address=210.77.0.0/18 table=Route_A
 add action=lookup comment="" disabled=no dst-address=210.77.64.0/19 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=210.77.128.0/19 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=210.77.176.0/20 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=210.77.192.0/18 table=Route_ALL_China
+add action=lookup comment="" disabled=no dst-address=210.77.224.0/19 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=210.78.128.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=210.78.134.0/23 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=210.78.139.0/24 table=Route_ALL_China
@@ -4641,7 +4635,6 @@ add action=lookup comment="" disabled=no dst-address=223.223.192.0/20 table=Rout
 add action=lookup comment="" disabled=no dst-address=223.240.0.0/13 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=223.248.0.0/16 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=223.249.192.0/18 table=Route_ALL_China
-add action=lookup comment="" disabled=no dst-address=223.251.192.0/18 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=223.252.194.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=223.252.199.0/24 table=Route_ALL_China
 add action=lookup comment="" disabled=no dst-address=223.252.200.0/23 table=Route_ALL_China
